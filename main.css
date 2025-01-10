@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body html {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #f0f0f0;
+}
+
+p{
+    font-size:1rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+h1{
+    font-size: 3.815rem;
+}
+h2{
+    font-size: 3.052rem;
+}
+h3{
+    font-size: 2.441rem;
+}
+h4{
+    font-size: 1.953rem;
+}
+h5{
+    font-size: 1.563rem;
+}
+h6{
+    font-size: 1.25rem;
+}
+
+
+
+
+.theme-color {
+    color: hsl(26, 100%, 55%);
+}
+
+.theme-pale {
+    color: hsl(25, 100%, 94%)
+}
+
+.theme-color-light {
+    color: hsl(26, 100%, 95%);
+}
+
+.theme-bg {
+    background-color: hsl(26, 100%, 55%);
+}
+
+.theme-bg-light {
+    background-color: hsl(26, 100%, 95%);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #f0f0f0;
+    width:100%;
+}
+.header-nav__links{
+    display: flex;
+    flex-direction: row;
+}
+.header-nav__links a{
+    margin-right: 0.2rem;
+    font-weight: 300;
+    color: #68707d;
+    transition: all 0.3s ease;
+     border-bottom: 2px solid transparent;
+     padding:2rem 1rem;
+}
+
+.header-nav__links a:last-child{
+    margin-right: 0;
+}
+
+
+.header-nav__links a:hover{
+    border-bottom: 2px solid orange;
+    color:#1d2025;
+}
+
+.header-addcart{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:2rem;
+}
+
+
+/* DISPLAY */
+.display{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top:4rem ;
+}
